@@ -1,0 +1,389 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+
+/*haed*/
+
+
+/*section*/
+
+/*section*/
+div>.main {
+    max-width: 1280px;
+    margin: auto;
+    height: 100%;
+    border: green 5px solid;
+}
+
+.titulo {
+    margin-top: 10px !important;
+    margin: auto;
+    width: 100%;
+    max-width: 1280px;
+    height: 25px;
+    display: flex;
+}
+
+.titulo legend {
+    margin-left: 10px;
+    text-align: left;
+    font-size: 24px;
+    color: rgb(12, 12, 112);
+    margin-bottom: 15px;
+    text-shadow: 5px 5px 20px rgb(12, 12, 112);
+    width: 100%;
+}
+
+/*MApa I-Frame*/
+
+.mapa {
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    height: 400px;
+    margin-top: 25px;
+    iframe {
+        max-width: 1080px;
+        padding: 3px;
+        border: rgb(12, 12, 112) solid 1px;
+        border-radius: 25px;
+        box-shadow: 5px 5px 20px gray;
+        margin: auto;
+    }
+}
+/*
+.map { 
+    margin: auto;
+    margin-top: 10px;
+    width: 1080px;
+    max-width: 84%;
+    height: 100%;
+    max-height: 400px;
+    display: flex;
+    border: rgb(12, 12, 112) solid 1px;
+    border-radius: 25px;
+}
+
+.map_responsive {
+    width: 100%;
+    max-height: 400px;
+    overflow: hidden;
+    padding-bottom: 47%;
+    position: relative;
+    height: 0;
+    border-radius: 25px;
+}
+
+.map_responsive iframe {
+    height: 100%;
+    max-height: 400px;
+    width: 100%;
+    position: absolute;
+    text-align: left;
+    border-radius: 25px;
+}
+
+*/
+/*Formulario Contacto*/
+.contactos {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1280px;
+    margin-top: 20px;
+    height: 100%;
+    padding-top: 10px;
+    padding: 10px;
+}
+
+.formulario {
+    width: 49%;
+}
+
+
+.formulario fieldset {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    min-height: 580px;
+    background-color: aliceblue;
+    border-radius: 25px;
+    padding-left: 15px;
+    box-shadow: 5px 5px 10px gray;
+    border: 1px solid gray;
+
+    legend {
+        font-size: 24px;
+        color: rgb(12, 12, 112);
+        margin-bottom: 15px;
+        text-shadow: 5px 5px 20px #0c0c70;
+    }
+
+    label {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    input {
+        border: none;
+        width: 180px;
+        height: 30px;
+        font-size: 16px;
+        color: #808080;
+        border-radius: 10px;
+        margin-top: 5px;
+    }
+
+    select {
+        border: none;
+        width: 180px;
+        height: 30px;
+        font-size: 16px;
+        color: #808080;
+        border-radius: 5px
+    }
+
+    textarea {
+        border-radius: 10px;
+        width: 95%;
+    }
+
+    div {
+        margin-top: 5px;
+    }
+}
+
+#enviar input {
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #008000;
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+/*Campo Informacion*/
+.informacion {
+    margin: auto;
+    width: 49%;
+}
+
+.informacion fieldset {
+    background-color: #f0f8ff;
+    min-height: 580px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px #808080;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    padding-left: 5px;
+
+    legend {
+        margin: 15px 20px 15px;
+        font-size: 24px;
+        color: rgb(12, 12, 112);
+        text-shadow: 5px 5px 20px #0c0c70;
+    }
+
+    p {
+        text-align: justify;
+        margin: 50px 20px 20px;
+        font-size: 20px;
+    }
+}
+
+.iconos_p {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+
+    img {
+        width: 30px;
+        margin: 20px 10px 20px;
+    }
+}
+
+/*Configuaracion botons**/
+#buton-click {
+    /*cursor: pointer;*/
+    border: 1px solid black;
+    transition: all 0.5s ease;
+    /*animation: glowing 20s linear infinite;*/
+
+}
+
+#buton-click:hover {
+    transform: translateY(5px);
+    transform: scale(1.05);
+    box-shadow: 10px 10px 20px rgba(0, 128, 0, 0.5);
+    font-weight: bold;
+    /*background-image: radial-gradient(white 15%, green 60%);*/
+    /*background: linear-gradient(45deg, red,orange,yellow,green,aquamarine,blue,indigo,red);
+        animation: glowing 20s linear infinite; 
+        opacity: 1;*/
+}
+
+@media all and (max-width:1100px) and (min-width:601px) {
+    .contactos {
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .formulario {
+        width: 58%;
+        margin: auto;
+    }
+
+    .formulario fieldset {
+        min-height: 680px;
+        display: flex;
+        flex-direction: column;
+
+        div {
+            height: 30px;
+            margin: 2px 5px 2px;
+        }
+
+        label {
+            margin-left: 10px;
+            min-width: 25%;
+        }
+
+        input {
+            height: 25px;
+            min-width: 66%;
+        }
+
+        .textarea {
+            margin: auto;
+            margin-left: 10px;
+            width: 95%;
+            height: 100%;
+            border-radius: 25px;
+        }
+
+        select {
+            height: 25px;
+            min-width: 25%;
+        }
+
+    }
+
+    #enviar {
+        display: flex;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 10px;
+
+    }
+
+    .informacion {
+        width: 39%;
+        margin: auto;
+    }
+
+    .informacion fieldset {
+        min-height: 680px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width:600px) {
+    .main {
+        width: 100%;
+    }
+
+    div>.contactos {
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .formulario {
+        margin: auto;
+        width: 95%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    .formulario fieldset {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        padding: 1%;
+        height: 100%;
+        padding-bottom: 15px;
+
+        input {
+            height: 25px;
+            min-width: 66;
+        }
+
+        .textarea {
+            margin: auto;
+            margin-left: 10px;
+            width: 95%;
+            height: 100%;
+            border-radius: 25px;
+        }
+
+        select {
+            height: 25px;
+            min-width: 25%;
+        }
+
+        label {
+            margin-left: 10px;
+            min-width: 25%;
+        }
+
+        div {
+            height: 30px;
+            margin: 2px 5px 2px;
+        }
+    }
+
+    #enviar {
+        display: flex;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 10px;
+
+    }
+
+    .informacion {
+        width: 95%;
+        height: 100%;
+        margin-bottom: 10px;
+    }
+
+    .informacion fieldset {
+        height: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}

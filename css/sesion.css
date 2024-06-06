@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", sans-serif;
+}
+ 
+
+/*section*/
+ 
+.portada{
+    margin: auto;
+    max-width: 1280px;
+    height:550px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 100px; 
+    align-items: center;
+} 
+#email label{
+    width: 150px;
+    height: 40px;
+    text-align: left;
+}
+#email input{     
+    width: 300px;
+    height: 20px;    
+    border-radius: 25px;    
+    border: 1px solid gray;
+}
+#button  {
+    
+    width: 300px;     
+    margin-bottom:25px;
+     
+}
+h2{
+    margin-bottom: 20px;
+}
+p{ 
+    text-align: center;
+    margin-top: 20px; 
+    font-size: 12px;
+}
+.iconos{
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+

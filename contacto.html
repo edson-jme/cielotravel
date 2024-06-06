@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 minimum-scale=1.0, use-scalable=no ">
+    <title>Mi Pagina Web</title>
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/header-footer.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--a continuacion->> para poner iconos-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark navbar-expand-md   fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="imglogo mx-4 rounded-4" src="imagenes/logo.png" height="100"
+                        alt="logo">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                            <img class="imglogo rounded-4" src="imagenes/logo.png" height="100"
+                                alt="">
+                        </h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-evenly flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2 text-light text-gmd-center" aria-current="page"
+                                    href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link mx-lg-2 text-light text-md-center dropdown-toggle text-wrap"
+                                     role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="true">Paquetes
+                                    Nacionales
+                                </a>
+                                <ul class="dropdown-menu" style="background-color: #0c0c70;">
+                                    <li><a class="dropdown-item text-light" href="paq-nac.html">Pagina Principal</a></li>
+                                    <li><a class="dropdown-item text-light" href="#">Paquetes a Loreto</a></li>
+                                    <li><a class="dropdown-item text-light" href="#">Paquetes a Ancash</a></li>
+                                    <li><a class="dropdown-item text-light" href="#">Paquetes a Cuzco</a></li>
+                                    <li><a class="dropdown-item text-light" href="#">Paquetes a Arequipa</a></li>
+                                </ul>
+    
+                            </li>
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link mx-lg-2 text-light text-md-center dropdown-toggle text-wrap"
+                                     role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="true">Paquetes
+                                    Internacionales
+                                </a>
+                                <ul class="dropdown-menu" style="background-color: #0c0c70;">
+                                    <li><a class="dropdown-item text-light" href="paq-inter.html">Página Principal</a></li>
+                                    <li><a class="dropdown-item text-light" href="#">Paquetes a EEUU</a></li>
+                                    <li><a class="dropdown-item text-light" href="#">Paquetes a Canada</a></li>
+                                    <li><a class="dropdown-item text-light" href="#">Paquetes a Argentina</a></li>
+                                    <li><a class="dropdown-item text-light" href="#">Paquetes a Brasil</a></li>
+                                    <li><a class="dropdown-item text-light" href="#">PAquetes a Colombia</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2 text-light text-md-center  " aria-current="page"
+                                    href="contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item flex-wrap d-flex">
+                                <a href="sesion.html" class="nav-link mx-lg-2 text-light text-md-center  "
+                                    aria-current="page" href="">
+                                    <i class="i-in-s mx-2 bi bi-person-circle"></i>
+                                    <p class="a-in-s">Iniciar Sesion</p>
+                                </a>
+                            </li>
+                            <form class="d-flex mt-3 form-search"   role="search">
+                                <input class="form-control me-2 rounded-4" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-success rounded-2" type="submit">Buscar</button>
+                            </form>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <main class="main">
+
+            <div class="titulo">
+                <legend>Ubicanos: </legend>
+            </div>
+            <div class="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2007.6025420473754!2d-77.03434578650122!3d-12.118993137006308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c83d52c25283%3A0x237403e58bddb9a3!2sCOPEIN!5e0!3m2!1ses-419!2spe!4v1714749080792!5m2!1ses-419!2spe"
+                    width="84.3%" height="400px" style="border:1;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <!---
+            <div class="map">
+                <div class="map_responsive">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6560.50530149364!2d-77.02820748264676!3d-12.119008531998551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8182b96c849%3A0x1f7401d4d622745b!2sAv.%20Jos%C3%A9%20Pardo%2C%20Miraflores%2015074!5e0!3m2!1ses-419!2spe!4v1713799085915!5m2!1ses-419!2spe"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+            </div> 
+            -->
+            <div class="contactos">
+                <div class="formulario">
+                    <form action="">
+                        <fieldset>
+                            <legend>Nos interesa escucharte: </legend>
+                            <div id="nombre">
+                                <label for="nombre">Nombre: </label>
+                                <input type="text" name="nombre" id="nombre" placeholder="Nombres" autofocus>
+                            </div>
+                            <div id="apelido">
+                                <label for="apelido">Apelido: </label>
+                                <input type="text" name="apelido" id="apelido" placeholder="Apellidos">
+                            </div>
+                            <div id="tipo_doc">
+                                <label for="tipo_doc">Tipo doc.: </label>
+                                <select name="tipo_doc" id="tipo_doc">
+                                    <option value="">DNI</option>
+                                    <option value="">Pasaporte</option>
+                                </select>
+                            </div>
+                            <div id="doc">
+                                <label for="doc">Nro. doc.: </label>
+                                <input type="tel" name="doc" id="doc" minlength="8" maxlength="10">
+                            </div>
+                            <div id="cel">
+                                <label for="cel">Celular: </label>
+                                <input type="tel" name="cel" id="cel" maxlength="12" placeholder="912345678"
+                                    pattern="[9]{1}-[0-9]{9}">
+                            </div>
+                            <div id="email">
+                                <label for="email">e-mail: </label>
+                                <input type="email" name="email" id="email" placeholder="nombre@dominio.com"
+                                    pattern=".+@example\.com" size="30">
+                            </div>
+                            <div id="viaje">
+                                <label for="viaje">Fecha Viaje: </label>
+                                <input type="date" name="viaje" id="viaje" placeholder="DD-MM-YYYY">
+                            </div>
+                            <div id="voucher">
+                                <label for="voucher">Voucher: </label>
+                                <input type="tel" name="voucher" id="voucher" maxlength="6" placeholder="12-345"
+                                    pattern="[0-9]{2}-[0-9]{3}">
+                            </div>
+                            <div class="textarea">
+                                <label for="textarea"><br>Escribenos: <br></label>
+                                <textarea name="textarea" id="textarea" cols="60" rows="10"></textarea>
+                            </div>
+                            <div id="enviar">
+                                <input type="button" value="Enviar" id="buton-click" class="btn" data-bs-toggle="tooltip"
+                                data-bs-placement="bottom" data-bs-custom-class="custom-tooltip"
+                                data-bs-title="¿Esta de seguro de llenar todos los datos correctamente?">
+                            </div>
+
+                             
+
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="informacion ">
+                    <fieldset>
+                        <legend>Oficinas Lima:</legend>
+                        <p>Puedes ponerte en contacto con nosotros rellenando el siguiente formulario. Nos pondremos en
+                            contacto
+                            contigo con la mayor brevedad posible.
+                            <br>Miraflores, Av. José Pardo,Lima Perú Oficina 2635 <br>Teléfonos: 97005480
+                            <br>Síguenos en: <br>
+                        </p>
+
+                        <div class="iconos_p">
+                            <a href="http://www.facebook.com" target="_blank"><img src="imagenes/facebook.png"
+                                    alt="logo"></a>
+
+                            <a href="http://www.instagram.com" target="_blank"><img src="imagenes/instagram.png"
+                                    alt="logo"></a>
+                            <a href="http://www.twitter.com" target="_blank"><img src="imagenes/twitter.png"
+                                    alt="logo"></a>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="fila row d-flex  mx-auto my-auto px-2 gy-4 ">
+
+                <div class="columna col-12 col-md-4   ">
+                    <div class="card card-size h-100  rounded-4">
+                        <div class="card-body text-light rounded-4">
+                            <h5 class="font-weight-bold text-center ">NOSOTROS</h5>
+                            <hr>
+                            <p>Brindamos asesoría personalizada a cada uno de nuestros clientes con sus viajes de
+                                negocios,
+                                vacaciones, alojamientos, tours, cruceros y más. Nuestra estrategia es ofrecer servicios
+                                integrales para generar un valor agregado y así distinguirnos entre las mayores empresas
+                                de
+                                turismo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="columna col-12 col-md-4 text-center">
+                    <div class="card card-size h-100  rounded-4 ">
+                        <div class="card-body footer2 text-light rounded-4">
+                            <h5 class="font-weight-bold  ">DEJANOS AYUDARTE</h5>
+                            <hr>
+                            <p><a href="#" class="aref  text-light text-decoration-none">Manejo de Cuenta</a></p>
+                            <p><a href="#" class="aref  text-light text-decoration-none">Ayuda</a></p>
+                            <p><a href="#" class="aref  text-light text-decoration-none">Consejos</a></p>
+                            <p><a href="#" class="aref  text-light text-decoration-none">Ayuda del sitio</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="columna col-12 col-md-4">
+                    <div class="card card-size h-100  rounded-4  ">
+                        <div class="card-body footer3 text-light  rounded-4">
+                            <h5 class="font-weight-bold text-center">CONTACTANOS</h5>
+                            <hr>
+                            <p><i class="bi bi-house me-2  "></i>Lima, Lima, Perú</p>
+                            <p><i class="bi bi-telephone me-2"></i>+51 925 485 125</p>
+                            <p><i class="bi bi-envelope me-2"></i>perutravel@gmail.com</p>
+                            <p>Siguenos en:</p>
+                            <div class="iconos  text-center mb-2">
+                                <a class="mx-2 rounded-4 " href="http://www.facebook.com" target="_blank">
+                                    <img src="imagenes/facebook.png" alt="logo"></a>
+                                <a class="mx-2 rounded-4" href="http://www.instagram.com" target="_blank">
+                                    <img src="imagenes/instagram.png" alt="logo"></a>
+                                <a class="mx-2 rounded-4" href="http://www.twitter.com" target="_blank">
+                                    <img src="imagenes/twitter.png" alt="logo"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <center>
+                    <p style="font-size: 0.8rem " class="text-light">Copyright © Traveling.com 2024. All Rights
+                        Reserved.</p>
+                </center>
+            </div>
+
+        </div>
+
+
+    </footer>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+<script>
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+</script>
+
+</html>
